@@ -3,3 +3,6 @@ uvicorn[standard]>=0.27.0
 websockets>=12.0
 pydantic>=2.5.0
 python-dotenv>=1.0.0
+
+# Databricks Delta Lake backend (optional – only needed when DATABASE_BACKEND=databricks)
+databricks-sql-connector>=3.0.0
